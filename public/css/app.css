@@ -1,0 +1,33 @@
+.header .logo {
+	padding-top: 10px;
+	background-color: #272626;
+}
+
+.header .logo .container {
+	height: 120px;
+	background: url(../images/logo-inverted.png) no-repeat center;
+}
+
+.header .header-menu {
+	background-color: #313030;
+}
+
+.header .header-menu .header-navigation > ul > li > a {
+	color: #fff;
+	padding: 8px 12px 9px;
+}
+
+.header .header-menu .header-navigation ul > li.active > a,
+.header .header-menu .header-navigation ul > li > a:hover,
+.header .header-menu .header-navigation ul > li > a:focus,
+.header .header-menu .header-navigation ul > li.open > a,
+.header .header-menu .header-navigation ul > li.open > a:hover,
+.header .header-menu .header-navigation ul > li.open > a:focus {
+	color: #e02222;
+	text-decoration: none;
+}
+
+.header .header-menu .header-navigation ul > li.active > a {
+	padding-bottom: 7px;
+	border-bottom: 2px solid #e64f00;
+}
