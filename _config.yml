@@ -1,1 +1,15 @@
+# Permalinks
 permalink: pretty
+relative_permalink: true
+
+# Setup
+title: Codifica 208
+tagline: Escrevendo um futuro melhor!
+url: http://www.codifica208.com.br
+paginate: 3
+paginate_path: "/blog/page:num/"
+baseurl: /
+author:
+  name: Membros do Codifica 208
+  url: http://github.com/codifica208
+  email: contato@codifica208.com.br
