@@ -1,0 +1,25 @@
+<div class="col-sm-3 blog-sidebar">
+	<h2 class="no-top-space">Categorias</h2>
+	<ul class="nav sidebar-categories margin-bottom-40">
+		{% for cat in site.categories %}
+		<li>
+			<a href="/blog/categories/{{ cat | first | replaceSpaces }}/">
+				{{ cat | first | category }}
+				({{ cat | last | size }})
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+	<div class="blog-tags margin-bottom-20">
+		<h2>Tags</h2>
+		<ul>
+			{% for tag in site.tags %}
+			<li>
+				<a href="/blog/tags/{{ tag | first | replaceSpaces }}/">
+					<i class="fa fa-tags"></i>{{ tag | first | tag }}
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

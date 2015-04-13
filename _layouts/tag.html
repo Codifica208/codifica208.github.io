@@ -1,0 +1,20 @@
+---
+layout: default
+activeMenu: blog
+---
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1>{{ page.title }}</h1>
+		<div class="content-page">
+			<div class="row">
+				<div class="col-sm-9 blog-posts margin-bottom-20">
+					{% for post in site.tags[page.tag] %}
+					{% include post-summary.html %}
+					{% endfor %}
+				</div>
+				{% include blog-sidebar.html %}
+			</div>
+		</div>
+	</div>
+</div>
