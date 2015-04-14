@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blog
+activeMenu: blog
+---
+
+<div class="row">
+	<div class="col-xs-12">
+		<h1>Blog da iniciativa</h1>
+		<div class="content-page">
+			<div class="row">
+				<div class="col-sm-9 blog-posts margin-bottom-20">
+					{% for post in paginator.posts %}
+					{% include post-summary.html %}
+					{% endfor %}
+					<div class="row">
+						<div class="col-xs-12 text-center line-height-34">
+							{% if paginator.next_page %}
+							<a class="btn btn-default pull-left" href="{{ paginator.next_page_path }}">Mais Antigas</a>
+							{% else %}
+							<button class="btn btn-default pull-left" disabled>Mais Antigas</button>
+							{% endif %}
+
+							<span class="hidden-xs">
+								Mostrando página {{ paginator.page | minus:1 | times:-1 | plus: paginator.total_pages }} de {{ paginator.total_pages }}
+							</span>
+
+							{% if paginator.previous_page %}
+							<a class="btn btn-default pull-right" href="{{ paginator.previous_page_path }}">Mais Novas</a>
+							{% else %}
+							<button class="btn btn-default pull-right" disabled>Mais Novas</button>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+				{% include blog-sidebar.html %}
+			</div>
+		</div>
+	</div>
+</div>
