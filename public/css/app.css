@@ -2,6 +2,10 @@ html {
 	overflow-y: scroll;
 }
 
+.header {
+	height: 167px;
+}
+
 .header .logo {
 	padding-top: 10px;
 	background-color: #272626;
