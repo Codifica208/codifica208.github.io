@@ -14,7 +14,11 @@ html {
 
 .header .header-menu {
 	background-color: #313030;
+	top: 0px;
+	width: 100%;
 }
+
+.header .header-menu.affix { box-shadow: 0 1px 3px #ddd; }
 
 .header .header-menu .header-navigation > ul > li > a {
 	color: #fff;
