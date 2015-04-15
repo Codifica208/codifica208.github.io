@@ -75,3 +75,14 @@ html {
 }
 
 .line-height-34 { line-height: 34px; }
+
+.category-title i,
+.tag-title i {
+	color: #E84D1C;
+	font-size: 26px;
+}
+
+.blog-posts img { margin-top: 6px; }
+
+.blog-item { text-align: justify; }
+.blog-item h2.title { padding-top: 0px; }
