@@ -15,6 +15,9 @@ html, body { height: 100%; }
 .line-height-34 { line-height: 34px; }
 
 /* ------------------------------------------- */
+.header {
+	height: 167px;
+}
 
 .header .logo {
 	padding-top: 10px;
