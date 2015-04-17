@@ -2,7 +2,6 @@
 layout: default
 activeMenu: blog
 ---
-
 <div class="row">
 	<div class="col-xs-12">
 		<div class="content-page">
@@ -24,6 +23,7 @@ activeMenu: blog
 							{% include tag-links.html %}
 						</li>
 					</ul>
+					{% assign absoluteUrl = site.url + page.url %}
 				</div>
 				{% include blog-sidebar.html %}
 			</div>

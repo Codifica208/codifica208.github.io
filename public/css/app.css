@@ -1,6 +1,20 @@
-html {
-	overflow-y: scroll;
+html { overflow-y: auto; }
+html, body { height: 100%; }
+
+.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
 }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.line-height-34 { line-height: 34px; }
+
+/* ------------------------------------------- */
 
 .header .logo {
 	padding-top: 10px;
@@ -76,9 +90,13 @@ html {
 	.header .header-menu .header-navigation > ul > li > a {
 		padding: 8px 16px 9px;
 	}
-}
 
-.line-height-34 { line-height: 34px; }
+	.footer { text-align: center; }
+	.footer .pull-right { float: none !important; }
+	.footer .list-inline > li:last-child {
+		padding-right: 5px;
+	}
+}
 
 .category-title i,
 .tag-title i {
@@ -90,3 +108,106 @@ html {
 
 .blog-item { text-align: justify; }
 .blog-item h2.title { padding-top: 0px; }
+
+.land,
+.land > .main,
+.land > .main > .container,
+.land > .main > .container > .logo-container { height: 100%; }
+
+.land .logo-container {
+	text-align: center;
+	padding-bottom: 338px;
+}
+
+.land .logo {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	max-width: 500px;
+	background-image: url(../images/logo-500x100.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+}
+
+.land .footer,
+.land .land-menu {
+	position: absolute;
+	width: 100%;
+}
+
+.land .footer { bottom: 0px; }
+
+.land .land-menu {
+	bottom: 59px;
+	background-color: #f6f6f6;
+	text-align: center;
+	padding: 15px;
+}
+
+.land .land-menu .item a {
+	color: #3E4D5C;
+}
+
+.land .land-menu .item a:active,
+.land .land-menu .item a:focus,
+.land .land-menu .item a:hover {
+	text-decoration: none;
+}
+
+.land .land-menu .item {
+	border-right: solid 1px #e8e7e7;
+	padding-top: 9px;
+}
+
+.land .land-menu .item.col-md-3:last-child {
+	border-right: none;
+}
+
+.land .land-menu span {
+	text-align: center;
+}
+
+.land .land-menu .fa {
+	background: #e85425;
+	font-size: 38px;
+	padding: 31px 0 0;
+	color: #fff;
+	width: 99px;
+	height: 99px;
+	line-height: 1;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: 29px;
+}
+
+.land .land-menu h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+
+@media (max-width:767px){
+	.land > .main { height: 200px; }
+
+	.land .logo-container { padding-bottom: 0px; }
+
+	.land .footer,
+	.land .land-menu {
+		position: inherit;
+	}
+
+	.land .land-menu .item {
+		border-right: none;
+	}
+
+	.land .land-menu .fa {
+		font-size: 20px;
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		margin-bottom: 0px;
+	}
+
+	.land .land-menu h3 { display: inline; }
+}
