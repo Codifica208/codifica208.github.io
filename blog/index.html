@@ -7,13 +7,13 @@ activeMenu: blog
 <div class="row">
 	<div class="col-xs-12">
 		<ul class="breadcrumb">
-			<li><a href="/">Home</a></li>
-			<li class="active">Blog</li>
+			<li><a href="/blog">Blog</a></li>
+			<li class="active">Índice</li>
 		</ul>
 		<h1>Blog da iniciativa</h1>
 		<div class="content-page">
 			<div class="row">
-				<div class="col-sm-9 blog-posts margin-bottom-20">
+				<div class="col-sm-9 blog-posts margin-bottom-40">
 					{% for post in paginator.posts %}
 					{% include post-summary.html %}
 					{% endfor %}
