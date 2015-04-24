@@ -1,0 +1,74 @@
+- eduardo-silva:
+  name: Eduardo Silva
+  roles: ['Arquiteto .NET', 'se veste de morcego nas horas vagas']
+  about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
+  avatar: 'https://media.licdn.com/media/p/3/000/012/188/3b7dfd1.jpg'
+  social:
+    - type: github
+      url: ''
+    - type: linkedin
+      url: ''
+    - type: facebook
+      url: ''
+    - type: googleplus
+      url: ''
+
+- leonardo-lana:
+  name: Leonardo Lana
+  roles: ['Programador .NET', 'almeja voltar pro seu planeta natal']
+  about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
+  avatar: 'https://media.licdn.com/media/p/8/000/202/2ec/3ee3c25.jpg'
+  social:
+    - type: github
+      url: ''
+    - type: linkedin
+      url: ''
+    - type: facebook
+      url: ''
+    - type: googleplus
+      url: ''
+
+- luiggi-anguiano:
+  name: Luiggi Anguiano
+  roles: ['Programador .NET', 'não sabe direito o que quer']
+  about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
+  avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/1b4/07b/30a4be0.jpg'
+  social:
+    - type: github
+      url: ''
+    - type: linkedin
+      url: ''
+    - type: facebook
+      url: ''
+    - type: twitter
+      url: ''
+
+- marcelo-neias:
+  name: Marcelo Néias
+  roles: ['Gerente de Projetos', 'líder de um quarteto fantástico']
+  about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
+  avatar: 'https://media.licdn.com/media/p/2/000/025/39e/3705952.jpg'
+  social:
+    - type: github
+      url: ''
+    - type: linkedin
+      url: ''
+    - type: googleplus
+      url: ''
+    - type: twitter
+      url: ''
+
+- renan-stigliani:
+  name: Renan Stigliani
+  roles: ['Arquiteto .NET', 'não se sabe se é bossa nova ou se é maomé']
+  about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
+  avatar: 'https://media.licdn.com/media/p/8/005/0a9/211/243e470.jpg'
+  social:
+    - type: github
+      url: ''
+    - type: linkedin
+      url: ''
+    - type: facebook
+      url: ''
+    - type: googleplus
+      url: ''
