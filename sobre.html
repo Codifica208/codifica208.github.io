@@ -16,7 +16,7 @@ permalink: '/sobre/'
 <h1>Sobre a iniciativa</h1>
 <hr/>
 
-<div class="row margin-bottom-20">
+<div class="row">
 	<div class="col-xs-12">
 		<h2>Quem somos e porquê fazemos</h2>
 		<p>Somos um grupo entusiasmado de profissionais da área de desenvolvimento de software que acredita que o mercado poderia contar com profissionais mais interessados, qualificados e apaixonados por aquilo que fazem. </p>
@@ -45,7 +45,7 @@ permalink: '/sobre/'
 		<div class="row front-team">
 			<ul class="list-unstyled">
 				{% for member in site.data.crew %}
-				<li class="col-sm-2">
+				<li class="col-md-3 col-lg-2">
 					<div class="thumbnail">
 						<img alt="{{ member.name }}" src="{{ member.avatar }}">
 						<h3>
@@ -79,20 +79,29 @@ permalink: '/sobre/'
 <hr class="margin-bottom-20"/>
 
 <div class="row margin-bottom-20">
-	<div class="col-md-9 col-sm-9">
-		<h2>Fale conosco</h2>
-		<p>Se deseja entrar em contato, preencha o formulário abaixo com sua dúvida/sugestão e clique em <strong>enviar</strong>. Não esqueça de verificar na nossa <a href="#">FAQ</a> se sua dúvida já não foi respondida.</p>
-		<form action="//formspree.io/contato@codifica208.com.br" method="post" role="form">
-			<input type="hidden" name="_next" value="/sobre/" />
-			<input type="text" name="_gotcha" style="display:none" />
+	<form action="//formspree.io/contato@codifica208.com.br" method="post" role="form">
+		<input type="hidden" name="_next" value="/sobre/" />
+		<input type="text" name="_gotcha" style="display:none" />
+		<div class="col-xs-12">
+			<h2>Fale conosco</h2>
+			<p>
+				Se deseja entrar em contato, preencha o formulário abaixo com sua dúvida/sugestão e clique em <strong>enviar</strong>.
+				Não esqueça de verificar na nossa <a href="#">FAQ</a> se sua dúvida já não foi respondida.
+			</p>
+		</div>
+		<div class="col-sm-6">
 			<div class="form-group">
 				<label for="contacts-name">Nome</label>
 				<input type="text" class="form-control" name="name">
 			</div>
+		</div>
+		<div class="col-sm-6">
 			<div class="form-group">
 				<label for="contacts-email">E-mail</label>
 				<input type="email" class="form-control" name="email">
 			</div>
+		</div>
+		<div class="col-xs-12">
 			<div class="form-group">
 				<label for="contacts-email">Assunto</label>
 				<input type="text" class="form-control" name="_subject">
@@ -103,10 +112,9 @@ permalink: '/sobre/'
 			</div>
 			<button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Enviar</button>
 			<button type="reset" class="btn btn-default">Cancelar</button>
-		</form>
-	</div>
+		</div>
+	</form>
 </div>
-
 <!--
 <div class="row margin-bottom-20">
 	<div class="col-xs-12">
