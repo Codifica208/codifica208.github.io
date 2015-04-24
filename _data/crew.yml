@@ -5,13 +5,13 @@
   avatar: 'https://media.licdn.com/media/p/3/000/012/188/3b7dfd1.jpg'
   social:
     - type: github
-      url: ''
+      url: 'https://github.com/eduardosilva'
     - type: linkedin
-      url: ''
+      url: 'https://br.linkedin.com/pub/eduardo-silva/6/82/663/pt'
     - type: facebook
-      url: ''
+      url: 'https://www.facebook.com/eduardo.silva.1806'
     - type: googleplus
-      url: ''
+      url: 'https://plus.google.com/105930391428872575059'
 
 - leonardo-lana:
   name: Leonardo Lana
@@ -20,13 +20,13 @@
   avatar: 'https://media.licdn.com/media/p/8/000/202/2ec/3ee3c25.jpg'
   social:
     - type: github
-      url: ''
+      url: 'https://github.com/leolana'
     - type: linkedin
-      url: ''
+      url: 'https://br.linkedin.com/pub/leonardo-lucas-lana/65/709/560'
     - type: facebook
-      url: ''
+      url: 'https://www.facebook.com/leonardo.lana.14'
     - type: googleplus
-      url: ''
+      url: 'https://plus.google.com/118384435435755515197'
 
 - luiggi-anguiano:
   name: Luiggi Anguiano
@@ -35,28 +35,26 @@
   avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/1b4/07b/30a4be0.jpg'
   social:
     - type: github
-      url: ''
+      url: 'https://github.com/luidones'
     - type: linkedin
-      url: ''
+      url: 'https://br.linkedin.com/in/luiggianguiano'
     - type: facebook
-      url: ''
+      url: 'https://www.facebook.com/luiggianguiano'
     - type: twitter
-      url: ''
+      url: 'https://twitter.com/_luiggianguiano'
 
 - marcelo-neias:
   name: Marcelo Néias
-  roles: ['Gerente de Projetos', 'líder de um quarteto fantástico']
+  roles: ['Gerente de Projetos', 'PMP', 'líder de um quarteto fantástico']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
   avatar: 'https://media.licdn.com/media/p/2/000/025/39e/3705952.jpg'
   social:
     - type: github
-      url: ''
+      url: 'https://github.com/marceloneias'
     - type: linkedin
-      url: ''
+      url: 'https://br.linkedin.com/in/marceloneias'
     - type: googleplus
-      url: ''
-    - type: twitter
-      url: ''
+      url: 'https://plus.google.com/114326612166890328782'
 
 - renan-stigliani:
   name: Renan Stigliani
@@ -65,10 +63,10 @@
   avatar: 'https://media.licdn.com/media/p/8/005/0a9/211/243e470.jpg'
   social:
     - type: github
-      url: ''
+      url: 'https://github.com/eklam'
     - type: linkedin
-      url: ''
+      url: 'https://br.linkedin.com/in/rmalke'
     - type: facebook
-      url: ''
+      url: 'https://www.facebook.com/renansti'
     - type: googleplus
-      url: ''
+      url: 'https://plus.google.com/104828155414483051378'
