@@ -22,7 +22,14 @@ activeMenu: blog
 							{% include tag-links.html %}
 						</li>
 					</ul>
-					{% assign absoluteUrl = site.url + page.url %}
+					<div id="disqus_thread"></div>
+					<script type="text/javascript">
+						(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//codifica208.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						})();
+					</script>
 				</div>
 				{% include blog-sidebar.html %}
 			</div>
