@@ -1,4 +1,4 @@
-- eduardo-silva:
+eduardo-silva:
   name: Eduardo Silva
   roles: ['Arquiteto .NET', 'se veste de morcego nas horas vagas']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
@@ -13,7 +13,7 @@
     - type: googleplus
       url: 'https://plus.google.com/105930391428872575059'
 
-- leonardo-lana:
+leonardo-lana:
   name: Leonardo Lana
   roles: ['Programador .NET', 'almeja voltar pro seu planeta natal']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
@@ -28,7 +28,7 @@
     - type: googleplus
       url: 'https://plus.google.com/118384435435755515197'
 
-- luiggi-anguiano:
+luiggi-anguiano:
   name: Luiggi Anguiano
   roles: ['Programador .NET', 'não consegue nem entender quem está falando']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
@@ -43,7 +43,7 @@
     - type: twitter
       url: 'https://twitter.com/_luiggianguiano'
 
-- marcelo-neias:
+marcelo-neias:
   name: Marcelo Néias
   roles: ['Gerente de Projetos', 'PMP', 'líder de um quarteto fantástico']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'
@@ -58,7 +58,7 @@
     - type: googleplus
       url: 'https://plus.google.com/114326612166890328782'
 
-- renan-stigliani:
+renan-stigliani:
   name: Renan Stigliani
   roles: ['Arquiteto .NET', 'não se sabe se é bossa nova ou se é maomé']
   about: 'Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...'

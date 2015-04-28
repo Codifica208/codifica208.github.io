@@ -45,13 +45,14 @@ permalink: '/sobre/'
 		<div class="row front-team">
 			<ul class="list-unstyled">
 				{% for member in site.data.crew %}
+				{% assign m = member[1] %}
 				<li class="col-md-3 col-lg-2">
 					<div class="thumbnail">
-						<img alt="{{ member.name }}" src="{{ member.avatar }}">
+						<img alt="{{ m.name }}" src="{{ m.avatar }}">
 						<h3>
-							<strong>{{ member.name }}</strong> 
+							<strong>{{ m.name }}</strong> 
 							<small>
-								{% for role in member.roles %}
+								{% for role in m.roles %}
 									{% if forloop.last %}
 									e {{ role }}.
 									{% elsif forloop.first %}
@@ -64,7 +65,7 @@ permalink: '/sobre/'
 						</h3>
 						<p></p>
 						<ul class="social-icons">
-							{% for s in member.social %}
+							{% for s in m.social %}
 							<li><a class="{{ s.type }}"  title="{{ site.data.social[s.type] }}" data-original-title="{{ site.data.social[s.type] }}" href="{{ s.url }}"></a></li>
 							{% endfor %}
 						</ul>
@@ -115,30 +116,3 @@ permalink: '/sobre/'
 		</div>
 	</form>
 </div>
-<!--
-<div class="row margin-bottom-20">
-	<div class="col-xs-12">
-		<h1>Programas oferecidos pela iniciativa</h1>
-		
-		<h3>Bootcamps</h3>
-		<p>Destinados a empresas interessadas, os bootcamps são treinamentos realizados in-loco para estagiários e programadores juniores.</p>
-		<p>O conteúdo dos bootcamps varia de acordo com os objetivos da empresa, as tecnologias que utiliza e o tipo de software que produz. O programa é adaptado às necessidades de cada caso.</p>
-	</div>
-</div>
-<div class="row margin-bottom-40">
-	<div class="col-xs-12">
-		<h3>Recruta</h3>
-		<p>Encontrar talentos e permitir que eles tenham oportunidade no mercado é o objetivo.</p>
-		<p>Por meio de um processo de inscrição e avaliação, alunos do terceiro ano do ensino médio da rede pública são selecionados para participar do programa.</p>
-		<p>Durante um período de seis meses, os participantes irão aprender a desenvolver pequenas aplicações utilizando linguagens modernas e trabalhando em equipe.</p>
-		<p>Ao fim do programa, os participantes que quiserem seguir na área contarão com o apoio da equipe **codifica208** para escolher uma boa graduação e até conseguir um estágio numa consultoria ou softhouse.</p>
-	</div>
-</div>
-
-<div class="row margin-bottom-20">
-	<div class="col-xs-12">
-		<h1>Templates de Projeto</h1>
-		<p>A equipe **codifica208** irá disponibilizar templates de projetos para acelerar o desenvolvimento de aplicações.</p>
-	</div>
-</div>
--->

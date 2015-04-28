@@ -14,7 +14,10 @@ activeMenu: blog
 					<h2 class="title">{{ page.title }}</h2>
 					{{ content }}
 					<ul class="blog-info">
-						<li><i class="fa fa-user"></i> Autor: {{ page.author }}</li>
+						<li>
+							<i class="fa fa-user"></i>
+							Autor: <a href="/blog/autores/{{ page.author }}">{{ site.data.crew[page.author].name }}</a>
+						</li>
 						<li><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</li>
 						<li>
 							<i class="fa fa-tags"></i>
@@ -22,14 +25,18 @@ activeMenu: blog
 							{% include tag-links.html %}
 						</li>
 					</ul>
-					<div id="disqus_thread"></div>
-					<script type="text/javascript">
-						(function() {
-							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-							dsq.src = '//codifica208.disqus.com/embed.js';
-							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-						})();
-					</script>
+					<h2>Comentários</h2>
+					<div class="comments">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1511906649035295";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-version="v2.3" data-numposts="5" data-colorscheme="light" data-width="100%"></div>
+					</div>
 				</div>
 				{% include blog-sidebar.html %}
 			</div>

@@ -110,7 +110,8 @@ html, body { height: 100%; }
 }
 
 .category-title i,
-.tag-title i {
+.tag-title i,
+.author-title i {
 	color: #E84D1C;
 	font-size: 26px;
 }

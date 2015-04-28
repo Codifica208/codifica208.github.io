@@ -2,23 +2,25 @@
 layout: default
 activeMenu: blog
 ---
-
+{% assign author = site.data.crew[page.author] %}
 <div class="row">
 	<div class="col-xs-12">
 		<ul class="breadcrumb">
 			<li><a href="/blog">Blog</a></li>
-			<li>Categorias</li>
-			<li class="active">{{ site.data.categories[page.category] }}</li>
+			<li>Autores</li>
+			<li class="active">{{ author.name }}</li>
 		</ul>
-		<h1 class="category-title">
-			<i class="fa fa-folder-open-o"></i>
-			{{ site.data.categories[page.category] }}
+		<h1 class="tag-title">
+			<i class="fa fa-edit"></i>
+			{{ author.name }}
 		</h1>
 		<div class="content-page">
 			<div class="row">
 				<div class="col-sm-9 blog-posts margin-bottom-20">
-					{% for post in site.categories[page.category] %}
-					{% include post-summary.html %}
+					{% for post in site.posts %}
+						{% if post.author == page.author %}
+							{% include post-summary.html %}
+						{% endif %}
 					{% endfor %}
 				</div>
 				{% include blog-sidebar.html %}

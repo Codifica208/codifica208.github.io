@@ -6,7 +6,7 @@ relative_permalink: true
 title: Codifica 208
 tagline: Escrevendo um futuro melhor!
 url: http://www.codifica208.com.br
-paginate: 3
+paginate: 10
 paginate_path: "/blog/page:num/"
 baseurl: /
 author:
