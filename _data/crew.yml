@@ -28,7 +28,7 @@ leonardo-lana:
 
 luiggi-anguiano:
   name: Luiggi Anguiano
-  roles: ['Escritor', 'programador', 'não consegue nem entender quem está falando']
+  roles: ['Escritor', 'programador', 'não consegue gravar muito bem o que lhe falam']
   avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/1b4/07b/30a4be0.jpg'
   social:
     - type: github
