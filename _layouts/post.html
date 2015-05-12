@@ -11,14 +11,14 @@ activeMenu: blog
 			</ul>
 			<div class="row">
 				<div class="col-sm-9 blog-item">
-					<h2 class="title">{{ page.title }}</h2>
+					<h2 class="title">{{ page.sub-title }}</h2>
 					{{ content }}
 					<ul class="blog-info">
+						<li><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</li>
 						<li>
 							<i class="fa fa-user"></i>
 							Autor: <a href="/blog/autores/{{ page.author }}">{{ site.data.crew[page.author].name }}</a>
 						</li>
-						<li><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</li>
 						<li>
 							<i class="fa fa-tags"></i>
 							{% assign tags = page.tags %}

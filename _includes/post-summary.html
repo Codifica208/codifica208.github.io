@@ -16,6 +16,10 @@
 				{{ post.date | date_to_string }}
 			</li>
 			<li>
+				<i class="fa fa-user"></i>
+				Autor: <a href="/blog/autores/{{ post.author }}">{{ site.data.crew[post.author].name }}</a>
+			</li>
+			<li>
 				<i class="fa fa-tags"></i>
 				{% assign tags = post.tags %}
 				{% include tag-links.html %}

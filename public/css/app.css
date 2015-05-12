@@ -119,7 +119,10 @@ html, body { height: 100%; }
 .blog-posts img { margin-top: 6px; }
 
 .blog-item { text-align: justify; }
-.blog-item h2.title { padding-top: 0px; }
+.blog-item h2.title {
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
 
 .land,
 .land > .main,
