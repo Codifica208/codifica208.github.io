@@ -1,6 +1,6 @@
 eduardo-silva:
   name: Eduardo Silva
-  roles: ['Escritor', 'programador', 'se veste de morcego nas horas vagas']
+  roles: ['Autor', 'programador', 'se veste de morcego nas horas vagas']
   avatar: 'https://media.licdn.com/media/p/3/000/012/188/3b7dfd1.jpg'
   social:
     - type: github
@@ -14,7 +14,7 @@ eduardo-silva:
 
 leonardo-lana:
   name: Leonardo Lana
-  roles: ['Escritor', 'programador', 'almeja voltar pro seu planeta natal']
+  roles: ['Autor', 'programador', 'almeja voltar pro seu planeta natal']
   avatar: 'https://media.licdn.com/media/p/8/000/202/2ec/3ee3c25.jpg'
   social:
     - type: github
@@ -28,7 +28,7 @@ leonardo-lana:
 
 luiggi-anguiano:
   name: Luiggi Anguiano
-  roles: ['Escritor', 'programador', 'não consegue gravar muito bem o que lhe falam']
+  roles: ['Autor', 'programador', 'não consegue gravar muito bem o que lhe falam']
   avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/1b4/07b/30a4be0.jpg'
   social:
     - type: github
@@ -42,7 +42,7 @@ luiggi-anguiano:
 
 marcelo-neias:
   name: Marcelo Néias
-  roles: ['Escritor', 'gerente de projetos', 'líder de um quarteto fantástico']
+  roles: ['Autor', 'gerente de projetos', 'líder de um quarteto fantástico']
   avatar: 'https://media.licdn.com/media/p/2/000/025/39e/3705952.jpg'
   social:
     - type: github
@@ -56,7 +56,7 @@ marcelo-neias:
 
 renan-stigliani:
   name: Renan Stigliani
-  roles: ['Escritor', 'programador', 'não se sabe se é bossa nova ou se é maomé']
+  roles: ['Autor', 'programador', 'não se sabe se é bossa nova ou se é maomé']
   avatar: 'https://media.licdn.com/media/p/8/005/0a9/211/243e470.jpg'
   social:
     - type: github
