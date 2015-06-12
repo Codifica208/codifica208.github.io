@@ -39,7 +39,7 @@ permalink: '/sobre/'
 
 <hr class="margin-bottom-20"/>
 
-<div class="row margin-bottom-20">
+<div class="row margin-bottom-20 hidden-xs">
 	<div class="col-xs-12">
 		<h2>Membros da iniciativa</h2>
 		<div class="row front-team">
@@ -53,8 +53,8 @@ permalink: '/sobre/'
 							<strong>{{ m.name }}</strong> 
 							<small>
 								{% for role in m.roles %}
-									{% if forloop.last %}
-									e {{ role }}.
+									{% if forloop.last and forloop.length > 1 %}
+									e {{ role }}
 									{% elsif forloop.first %}
 									{{ role }}
 									{% else %}
@@ -63,7 +63,6 @@ permalink: '/sobre/'
 								{% endfor %}
 							</small>
 						</h3>
-						<p></p>
 						<ul class="social-icons">
 							{% for s in m.social %}
 							<li><a class="{{ s.type }}"  title="{{ site.data.social[s.type] }}" data-original-title="{{ site.data.social[s.type] }}" href="{{ s.url }}"></a></li>
@@ -77,7 +76,7 @@ permalink: '/sobre/'
 	</div>
 </div>
 
-<hr class="margin-bottom-20"/>
+<hr class="margin-bottom-20 hidden-xs"/>
 
 <div class="row margin-bottom-20">
 	<form action="//formspree.io/faleconosco@codifica208.com.br" method="post" role="form">

@@ -1,0 +1,12 @@
+<div class="author-info">
+	<img src="{{ author.avatar }}" alt="{{ author.name }}" />
+	<h2>
+		<a href="/blog/autores/{{ page.author }}">{{ author.name }}</a>
+	</h2>
+	{{ author.about }}
+	<ul class="social-icons">
+		{% for s in author.social %}
+		<li><a class="{{ s.type }}"  title="{{ site.data.social[s.type] }}" data-original-title="{{ site.data.social[s.type] }}" href="{{ s.url }}"></a></li>
+		{% endfor %}
+	</ul>
+</div>

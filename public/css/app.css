@@ -29,27 +29,48 @@ html, body { height: 100%; }
 	border-right: none;
 }
 
+.front-team .thumbnail { text-align: center; }
+.front-team .thumbnail h3 small { height: 26px; }
+.front-team .thumbnail ul { display: inline-block; }
+.front-team .thumbnail ul li:last-child { margin-right: 0px; }
+
 /* ------------------------------------------- */
 .header {
 	height: 167px;
 }
 
-.header .logo {
+.header div.logo {
 	padding-top: 10px;
 	background-color: #272626;
 }
 
-.header .logo .container {
+.header div.logo .container {
 	height: 120px;
 	background: url(../images/logo-inverted.png) no-repeat center;
 	text-align: center;
 }
 
-.header .logo .container a {
+.header div.logo .container a.logo {
 	display: inline-block;
 	height: 70px;
 	width: 300px;
 	margin-top: 20px;
+}
+
+.header div.logo .container a.github {
+	float: right;
+	font-weight: bold;
+	background-color: #E02222; /*#0090ff;*/
+	color: #fff;
+	padding: 0px 12px;
+	height: 40px;
+	margin-top: -10px;
+	line-height: 40px;
+}
+
+.header div.logo .container a.github img { 
+	margin-left: 6px;
+	margin-top: -5px;
 }
 
 .header .header-menu {
@@ -143,6 +164,38 @@ html, body { height: 100%; }
 
 .blog-item a:link { font-weight: bold; }
 .blog-info a:link { font-weight: normal; }
+
+.author-info {
+	border-bottom: solid 1px #ECEBEB;
+	padding-bottom: 18px;
+	margin-bottom: 10px;
+}
+
+.blog-item .author-info {
+	border-top: solid 1px #ECEBEB;
+	padding: 4px 0px;
+}
+
+.author-info img {
+	width: 120px;
+	float: left;
+	margin-right: 12px;
+}
+
+
+.author-info h2 {
+	padding: 0px;
+	margin-bottom: 6px;
+}
+
+.author-info h2 a {
+	font-weight: normal !important;
+	color: #e6400c;
+}
+
+.author-info ul.social-icons {
+	margin-top: 8px;
+}
 
 .land,
 .land > .main,
