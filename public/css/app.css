@@ -14,6 +14,21 @@ html, body { height: 100%; }
 
 .line-height-34 { line-height: 34px; }
 
+.content-page a, 
+.sidebar2 a { color: #3e4d5c; }
+
+.blog-item .blog-info li {
+	padding-left: 0px;
+	border-left: 0px;
+	padding-right: 13px;
+	border-right: solid 1px #ECEBEB;
+}
+
+.blog-item .blog-info li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
 /* ------------------------------------------- */
 .header {
 	height: 167px;
@@ -118,11 +133,16 @@ html, body { height: 100%; }
 
 .blog-posts img { margin-top: 6px; }
 
-.blog-item { text-align: justify; }
+.blog-item p { text-align: justify; }
 .blog-item h2.title {
 	padding-top: 0px;
 	margin-bottom: 20px;
 }
+
+.blog-item img { width:100%; }
+
+.blog-item a:link { font-weight: bold; }
+.blog-info a:link { font-weight: normal; }
 
 .land,
 .land > .main,
