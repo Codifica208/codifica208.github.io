@@ -16,7 +16,7 @@ E no último Asp.NET Brasil Conference, evento que ocorreu em São Paulo no dia 
 
 Graças ao compilador [Roslyn](https://github.com/dotnet/roslyn) e à extração do núcleo do .NET Framework, o novo e aberto [.NET Core](https://github.com/dotnet/core), poderemos executar  aplicações .NET em qualquer um desses sistemas operacionais sem tantas limitações.
 
-##Mas... e o Visual Studio?
+###Mas... e o Visual Studio?
 
 Infelizmente, não há nada além de rumores de que a Microsoft criará versões da IDE para os outros sistemas operacionais.
 
