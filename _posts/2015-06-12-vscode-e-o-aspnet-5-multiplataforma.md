@@ -25,6 +25,6 @@ Baseado no [Electron Shell](http://electron.atom.io/), o Code, como é chamado, 
  
 \*\*\*
 
-Ainda é cedo para afirmarmos alguma coisa, mas uma coisa é certa: desenvolver em .NET tendo a liberdade de usar seu ambiente de trabalho favorito é um grande ganho para toda a comunidade.
+Ainda é cedo para afirmarmos alguma coisa, exceto que: desenvolver em .NET tendo a liberdade de usar seu ambiente de trabalho favorito é um grande ganho para toda a comunidade.
 
 Até o próximo post.
