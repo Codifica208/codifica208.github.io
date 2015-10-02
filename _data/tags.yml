@@ -1,7 +1,9 @@
 blog: Blog
 dotnet: .NET
 aspnet: Asp.NET
+csharp: 'C#'
 microsoft: Microsoft
 visualstudiocode: VS Code
 opensource: Open Source
 multiplataforma: Multiplataforma
+padroes: Padrões
