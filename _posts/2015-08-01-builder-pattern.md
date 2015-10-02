@@ -10,9 +10,9 @@ categories: [desenvolvimento]
 
 O [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern) é um dos padrões criacionais descritos pelo grupo Gang of Four no excelente [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns), tendo como um dos seus principais objetivos particionar as operações de criação de um objeto.
 
-Elaborado para evitar a construção de milhares de construtores cobrindo todo um universo de combinações possíveis, ele se baseia na existência de um objeto builder (construtor) que recebe os diversos parâmetros de inicialização através de métodos. Estes incrementam o estado inicial do objeto futuro, e ao final do processo, retornam o mesmo devidamente configurado.
+Elaborado para evitar a construção de milhares de construtores cobrindo todo um universo de combinações possíveis, ele se baseia na existência de um objeto builder (construtor) que recebe os diversos parâmetros de inicialização através de métodos. Estes incrementam o estado inicial do objeto futuro e, ao final do processo, retornam o mesmo devidamente configurado.
 
-Algumas implementações utilizam este conceito para entregar o que chamamos de [Interface Fluente](https://en.wikipedia.org/wiki/Fluent_interface). Para isso, fazem com que os métodos de parametrização retornem a própria instancia do builder, permitindo assim concatenar os mesmos e melhorar a leitura do código.
+Algumas implementações utilizam esse conceito para entregar o que chamamos de [Interface Fluente](https://en.wikipedia.org/wiki/Fluent_interface). Para isso, fazem com que os métodos de parametrização retornem a própria instância do builder, permitindo assim concatenar os mesmos e melhorar a leitura do código.
 
 Para se ter uma ideia do seu potencial, vamos pegar como exemplo a construção condicional de instruções SQL:
 
@@ -44,7 +44,7 @@ if (criterias.Any())
 
 {% endhighlight %}
 
-*(se alguma vez você já concatenou strings desta maneira sabe o quanto este tipo de código pode ser frágil e de difícil manutenção)*
+*(se alguma vez você já concatenou strings desta maneira sabe o quanto esse tipo de código pode ser frágil e de difícil manutenção)*
 
 Ao escrever desta maneira estamos sujeitos a problemas básicos de instruções SQL, como falta de vírgulas, erro em keywords, etc. Já no exemplo abaixo, removemos a sintaxe SQL e continuamos com a capacidade de adicionar comportamento dinamicamente (e ainda temos como resultado um código mais limpo e coeso):
 
@@ -67,7 +67,7 @@ if (!String.IsNullOrWhiteSpace(groupName))
 
 {% endhighlight %}
 
-Se você já está familiarizado com algum framework ORM sabe que a sua sintaxe tem uma grande semelhança com o exemplo acima. Vejamos uma implementação com [Entity Framework](https://en.wikipedia.org/wiki/Entity_Framework):
+Se você já está familiarizado com algum framework ORM, sabe que a sua sintaxe tem uma grande semelhança com o exemplo acima. Vejamos uma implementação com [Entity Framework](https://en.wikipedia.org/wiki/Entity_Framework):
 
 {% highlight csharp %}
 
@@ -136,9 +136,9 @@ using (var context = new DataContext())
 
 {% endhighlight %}
 
-Desta maneira temos um código muito mais seguro e legível e nos livramos dos dois problemas mencionados. Qualquer programador sabe que está lidando com os departamentos administrativos e não só temos um reaproveitamento da consulta como podemos adicionar outro departamento ao grupo incrementando a mesma num único lugar.
+Desta maneira temos um código muito mais seguro e legível, e nos livramos dos dois problemas mencionados. Qualquer programador sabe que está lidando com os departamentos administrativos e não só temos um reaproveitamento da consulta como podemos adicionar outro departamento ao grupo incrementando a mesma num único lugar.
 
-Como nosso método parte de um *IQueryable\<Department\>* e devolve outro *IQueryable\<Department\>* suplementado, podemos extender nosso builder e concatenar as operações:
+Como nosso método parte de um *IQueryable\<Department\>* e devolve outro *IQueryable\<Department\>* suplementado, podemos estender nosso builder e concatenar as operações:
 
 {% highlight csharp %}
 
@@ -172,4 +172,4 @@ using (var context = new DataContext())
 
 {% endhighlight %}
 
-Por ser bastante utilizado pela comunidade, nos deparamos com este padrão com muita frequência no nosso dia-a-dia. Sabendo explorar seu potencial podemos criar diversas extensões e outros códigos baseados nele.
+Por ser bastante utilizado pela comunidade, nos deparamos com esse padrão com muita frequência no nosso dia-a-dia. Sabendo explorar seu potencial, podemos criar diversas extensões e outros códigos baseados nele.
