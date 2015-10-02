@@ -13,7 +13,7 @@ activeMenu: blog
 				<div class="col-sm-9 blog-item">
 					<h2 class="title">{{ page.sub-title }}</h2>
 					<ul class="blog-info">
-						<li><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</li>
+						<li><i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }}</li>
 						<li>
 							<i class="fa fa-tags"></i>
 							{% assign tags = page.tags %}

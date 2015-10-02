@@ -13,7 +13,7 @@
 		<ul class="blog-info">
 			<li>
 				<i class="fa fa-calendar"></i>
-				{{ post.date | date_to_string }}
+				{{ post.date | date: "%d/%m/%Y" }}
 			</li>
 			<li>
 				<i class="fa fa-user"></i>
