@@ -298,6 +298,241 @@ html, body { height: 100%; }
 	}
 }
 
+.land2 > header {
+	background: url(../images/logo-container.png);
+}
+
+.land2 > header > .container,
+.land2 > header > .container > .logo-container { height: 100%; }
+
+.land2 .logo-container {
+	text-align: center;
+}
+
+.land2 .logo {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	max-width: 692px;
+	background-image: url(../images/logo-inverted-shadow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+}
+
+.land2 > header > .menu {
+	background-color: #e6400c;
+	top: 0px;
+	width: 100%;
+	z-index: 999999;
+	box-shadow: 0px 1px 3px #444;
+}
+
+.land2 > header > .menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.land2 > header > .menu ul > li {
+	padding-right: 8px;
+	display: inline;
+	font-family: "PT Sans Narrow", Arial;
+	font-size: 24px;
+}
+
+.land2 > header > .menu ul > li > a,
+.land2 > header > .menu ul > li > a:visited,
+.land2 > header > .menu ul > li > a:active,
+.land2 > header > .menu ul > li > a:link {
+	color: #fff;
+}
+
+.land2 > .content {
+	padding: 24px 0px;
+}
+
+.land2 > .content h2,
+.land2 > .public-logo h2 {
+	font: 400 37px "PT Sans Narrow",Arial,sans-serif;
+	color: #272626;
+	margin: 0px 0px 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.land2 > .content h4 {
+	font: 300 16px "Open Sans",Arial,sans-serif;
+	color: #272626;
+	padding: 0px;
+	margin: 0px;
+}
+
+.land2 > .content h2::after {
+	z-index: 2;
+	content: " ";
+	display: block;
+	padding-top: 7px;
+	border-bottom: 2px solid #272626;
+	width: 73px;
+	margin: 0px auto;
+}
+
+.land2 > .content h2 > strong,
+.land2 > .public-logo h2 > strong {
+	font-weight: normal;
+	color: #e6400c;
+}
+
+.land2 .content-alt {
+	background-color: #f6f6f6;
+}
+
+.land2 > .content .land-menu {
+	text-align: center;
+	padding: 15px;
+}
+
+.land2 > .content .land-menu .item a {
+	color: #3E4D5C;
+}
+
+.land2 .content .land-menu .item a:active,
+.land2 .content .land-menu .item a:focus,
+.land2 .content .land-menu .item a:visited,
+.land2 .content .land-menu .item a:hover {
+	text-decoration: none;
+}
+
+.land2 .content .land-menu .item {
+	border-right: solid 1px #e8e7e7;
+	padding-top: 9px;
+}
+
+.land2 .content .land-menu .item.col-md-3:last-child {
+	border-right: none;
+}
+
+.land2 .content .land-menu span {
+	text-align: center;
+}
+
+.land2 .content .land-menu .fa {
+	background: #e85425;
+	font-size: 38px;
+	padding: 31px 0 0;
+	color: #fff;
+	width: 99px;
+	height: 99px;
+	line-height: 1;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: 29px;
+}
+
+.land2 .content .land-menu h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+
+.land2 .public-logo {
+	height: 400px;
+	background: #292F34 url("../images/public-background.png") no-repeat fixed 0% 0%;
+	padding: 150px 0;
+}
+
+.land2 .public-logo h2 {
+	display: block;
+	text-align: center;
+	color: #FFF;
+}
+
+.land2 ul.last-posts {
+	padding: 0;
+	margin: 40px 0;
+	list-style: none;
+}
+
+.land2 ul.last-posts li {
+	float: left;
+	background-color: #f6f6f6;
+	border: 2px solid #e8e9ee;
+	width: 270px;
+	padding: 12px;
+	margin: 0 20px;
+	position: relative;
+	min-height: 300px;
+}
+
+.land2 ul.last-posts li:hover {
+	border-bottom: 4px solid #e6400c;
+	top: -6px;
+}
+
+.land2 ul.last-posts li label {
+	background-color: #272626;
+	color: #fff;
+	margin: 0 0 6px -18px;
+	padding: 2px 60px 2px 20px;
+}
+
+.land2 ul.last-posts span {
+	display: block;
+}
+
+.land2 ul.last-posts span a {
+	font-size: 12px;
+	color: #272626;
+}
+
+.land2 ul.last-posts span i,
+.land2 ul.last-posts li h4 {
+	color: #e6400c;
+}
+
+.land2 ul.last-posts div a,
+.land2 ul.last-posts p {
+	color: #272626;
+	font-size: 14px;
+}
+
+.land2 ul.last-posts li h4 {
+	font-size: 20px;
+}
+
+.land2 ul.last-posts div {
+	position: absolute;
+	bottom: 12px;
+}
+
+.land2 ul.last-posts div img {
+	width: 70px;
+	height: 70px;
+}
+
+.land2 .content .see-more {
+	display: block;
+	background-color: #F6F6F6;
+	border: 2px solid #E8E9EE;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+.land2 .content-last {
+	background-color: #313030;
+	color: #b0b0b0;
+}
+
+.land2 .content-last h3 {
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+}
+
+.land2 .content-last button {
+	width: 120px;
+}
+
 .corporate .page-404 {
 	padding-top: 100px;
 	padding-bottom: 135px;
