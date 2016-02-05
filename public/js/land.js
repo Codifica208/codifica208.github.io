@@ -1,4 +1,10 @@
 (function() {
+	$('.nav a').click(function(){
+		var toggle = $('.navbar-toggle');
+		if (toggle.is(':visible'))
+			$('.navbar-toggle').click();
+	});
+
 	var windowHeight = $(window).height();
 	var header = $('header');
 	var menu = header.children('.menu');
