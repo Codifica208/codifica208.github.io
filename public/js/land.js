@@ -7,5 +7,5 @@
 	header.children('.container').height(windowHeight);
 	menu.attr('data-offset-top', windowHeight);
 	
-	$(".public-logo").parallax("50%", 0.4);
+	$(".public-logo").parallax("50%", 0.4, false);
 })();
