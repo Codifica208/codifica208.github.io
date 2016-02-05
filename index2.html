@@ -25,14 +25,15 @@ scripts: ['/public/js/land.js']
 				</button>
 				<div id="navbar" class="header-navigation font-transform-inherit navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#servicos">SERVIÇOS</a></li>
-						<li><a href="#time">O TIME</a></li>
+						<li><a href="#services">SERVIÇOS</a></li>
+						<li><a href="#team">O TIME</a></li>
 						<li><a href="#blog">BLOG</a></li>
-						<li><a href="#faleconosco">FALE CONOSCO</a></li>
+						<li><a href="#contact">FALE CONOSCO</a></li>
 					</li>
 				</div>
 			</div>
 		</div>
+		<a name="services"></a>
 	</header>
 	
 	<div class="content">
@@ -131,6 +132,7 @@ scripts: ['/public/js/land.js']
 				</div>
 			</div>
 		</div>
+		<a name="team"></a>
 	</div>
 
 	<div class="content">
@@ -144,6 +146,7 @@ scripts: ['/public/js/land.js']
 			<h2>PRODUZIR CONTEÚDO E GERAR TECNOLOGIA</h2>
 			<h2><strong>FORMA MELHORES PROFISSIONAIS</strong></h2>
 		</div>
+		<a name="blog"></a>
 	</div>
 
 	<div class="content">
@@ -159,7 +162,7 @@ scripts: ['/public/js/land.js']
 								{% assign tags = post.tags %}
 								{% include tag-links.html %}
 							</span>
-							<h4>{{ post.title }}</h4>
+							<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 							<p>{{ post.sub-title }}</p>
 							<div>
 								{% assign author = site.data.crew[post.author] %}
@@ -171,6 +174,7 @@ scripts: ['/public/js/land.js']
 				{% endfor %}
 			</div>
 		</div>
+		<a name="contact"></a>
 	</div>
 
 	<div class="content content-last">

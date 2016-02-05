@@ -572,10 +572,11 @@ html, body { height: 100%; }
 
 .land2 .public-logo {
 	background: #292F34 url("../images/public-background.png") no-repeat fixed 0% 0%;
+	padding: 24px 0;
 }
 
 .land2 .public-logo .container {
-	padding: 120px 0 110px;
+	padding: 100px 0 110px;
 }
 
 .land2 .public-logo h2 {
