@@ -127,6 +127,7 @@ html, body { height: 100%; }
 
 .land2 > header {
 	background: url(../images/logo-container.png);
+	background-size: cover;
 }
 
 .land2 > header > .container,
@@ -403,6 +404,7 @@ html, body { height: 100%; }
 
 .land2 .public-logo {
 	background: #292F34 url("../images/public-background.png") no-repeat fixed 0% 0%;
+	background-size: cover;
 	padding: 24px 0;
 }
 
