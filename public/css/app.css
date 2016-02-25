@@ -301,7 +301,7 @@ html, body { height: 100%; }
 	padding-top: 9px;
 }
 
-.land2 .content .land-menu .item.col-md-3:last-child {
+.land2 .content .land-menu .item:last-child {
 	border-right: none;
 }
 
