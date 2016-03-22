@@ -1,7 +1,7 @@
 eduardo-silva:
   name: Eduardo Silva
   roles: ['Autor']
-  about: se veste de morcego nas horas vagas
+  about: 'Autor no blog, sabe tudo de .NET e se veste de morcego nas horas vagas.'
   avatar: 'https://media.licdn.com/media/p/3/000/012/188/3b7dfd1.jpg'
   social:
     - type: github
@@ -16,8 +16,8 @@ eduardo-silva:
 leonardo-lana:
   name: Leonardo Lana
   roles: ['Autor']
-  about: 'Autor no blog da iniciativa, programa em .NET e almeja voltar pro seu planeta natal.'
-  avatar: 'https://media.licdn.com/media/p/8/000/202/2ec/3ee3c25.jpg'
+  about: 'Autor no blog, programa em .NET e almeja voltar pro seu planeta natal.'
+  avatar: 'https://en.gravatar.com/userimage/74221879/260bbbcf64b3f1466d03c5309f5a363f.jpg?size=200'
   social:
     - type: github
       url: 'https://github.com/leolana'
@@ -31,7 +31,7 @@ leonardo-lana:
 luiggi-anguiano:
   name: Luiggi Anguiano
   roles: ['Autor', 'editor', 'programador']
-  about: 'Entusiasta, é o faz tudo da iniciativa. Programa em .NET e JavaScript. Tenta se comunicar bem com todo mundo, mas não consegue gravar o que lhe falam.'
+  about: 'Entusiasta, é o faz tudo do codifica208, programa em .NET e JavaScript e adora seu Arch Linux.'
   avatar: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/1b4/07b/30a4be0.jpg'
   social:
     - type: github

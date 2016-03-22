@@ -534,3 +534,10 @@ html, body { height: 100%; }
 .front-team ul li img {
 	width: 100%;
 }
+
+code {
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
