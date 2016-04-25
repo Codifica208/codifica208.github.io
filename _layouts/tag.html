@@ -8,12 +8,8 @@ activeMenu: blog
 		<ul class="breadcrumb">
 			<li><a href="/blog">Blog</a></li>
 			<li>Tags</li>
-			<li class="active">{{ site.data.tags[page.tag] }}</li>
+			<li class="active"><i class="fa fa-tags"></i>{{ site.data.tags[page.tag] }}</li>
 		</ul>
-		<h1 class="tag-title">
-			<i class="fa fa-tags"></i>
-			{{ site.data.tags[page.tag] }}
-		</h1>
 		<div class="content-page">
 			<div class="row">
 				<div class="col-sm-9 blog-posts margin-bottom-20">

@@ -3,7 +3,6 @@ layout: post
 title: Sobre o blog
 sub-title: Bem-vindo ao blog da iniciativa, leitor!
 author: luiggi-anguiano
-images: ['/public/images/posts/sobre-o-blog.png']
 tags: [blog]
 categories: [novidades]
 ---

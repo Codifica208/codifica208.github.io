@@ -3,7 +3,6 @@ layout: post
 title: VS Code e o Asp.NET 5 multiplataforma
 sub-title: Desenvolver uma aplicação Asp.NET no MAC e hospedar num servidor Linux?
 author: leonardo-lana
-images: ['/public/images/posts/vscode-e-o-aspnet-5-multiplataforma.png']
 tags: [dotnet, aspnet, visualstudiocode, microsoft, opensource, multiplataforma]
 categories: [novidades]
 ---

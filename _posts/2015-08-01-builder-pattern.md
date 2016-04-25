@@ -3,7 +3,6 @@ layout: post
 title: Builder Pattern
 sub-title: Entendendo e tirando proveito do padrão
 author: eduardo-silva
-images: ['/public/images/posts/builder-pattern.png']
 tags: [padroes, dotnet, csharp]
 categories: [desenvolvimento]
 ---
