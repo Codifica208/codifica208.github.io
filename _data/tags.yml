@@ -7,8 +7,7 @@ visualstudiocode: VS Code
 opensource: Open Source
 multiplataforma: Multiplataforma
 padroes: Padrões
-
-#injecaodependencia: Injeção de Dependência
-#nodejs: Node.js
-#javascript: JavaScript
-#promises: Promises
+injecaodependencia: Injeção de Dependência
+nodejs: Node.js
+javascript: JavaScript
+promises: Promises

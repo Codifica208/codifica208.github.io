@@ -3,7 +3,7 @@ layout: post
 title: iNGector.js
 sub-title: Um módulo de injeção de dependência inspirado no AngularJS
 author: luiggi-anguiano
-images: ['/public/images/posts/sobre-o-blog.png']
+images: []
 tags: [injecaodependencia, nodejs, javascript, promises]
 categories: [desenvolvimento, tecnologia]
 ---
