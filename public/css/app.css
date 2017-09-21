@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 .line-height-34 { line-height: 34px; }
 
-.content-page a, 
+.content-page a,
 .sidebar2 a { color: #3e4d5c; }
 
 .blog-item .blog-info li {
@@ -42,7 +42,7 @@ html, body { height: 100%; }
 }
 
 .header .container {
-	height: 83px;
+	height: 48px;
 	background: url(../images/blog-logo.png) no-repeat 15px center;
 	text-align: center;
 }
@@ -64,7 +64,7 @@ html, body { height: 100%; }
 	line-height: 40px;
 }
 
-.header .container a.github img { 
+.header .container a.github img {
 	margin-left: 6px;
 	margin-top: -5px;
 }
